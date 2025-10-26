@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: 'Technology';
+    src: url(/assets/typo-digit-demo.regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #B9D9EB;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, button, .Labels{
+    font-family: Ubuntu, inter;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#Display {
+    font-family: 'Technology', sans-serif;
+    font-size: 100px;
+}
+
+.Labels {
+    font-size: 18px;
+}
+
+.Controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.Start, .Stop, .Reset {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgb(86, 83, 83);
+}
+
+.Start {
+    background-color: green;
+    color: azure;
+}
+
+.Start:hover {
+    background-color: rgb(0, 146, 0);
+}
+
+.Stop {
+    background-color: rgb(167, 45, 45);
+    color: azure;
+}
+
+.Stop:hover {
+    background-color: rgb(191, 51, 51);
+}
+
+.Reset {
+    background-color: rgb(165, 165, 42);
+    color: azure;
+}
+
+.Reset:hover {
+    background-color: rgb(184, 184, 47);
+}
